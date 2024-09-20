@@ -10,6 +10,8 @@ class Sorting:
             for i in data:
                 if i == item:
                     return i
+        else:
+            return None
 
         
     def Search_and_print(self,item):
@@ -21,4 +23,4 @@ s.add_data(5)
 s.add_data(3)
 s.add_data(1)
 s.print_list()
-s.Search_and_print(5)
+s.Search_and_print(7)
